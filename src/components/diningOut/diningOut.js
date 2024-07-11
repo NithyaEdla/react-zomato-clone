@@ -3,6 +3,7 @@ import "./diningOut.css";
 import Filters from '../fixedBar/filters/filters';
 import DiningOutCollections from './diningOutCollections/diningOutCollections';
 import Trending from './Trending/trending';
+import Restaurants from './diningOutCollections/restaurants/restaurants';
 
 const diningOutFilters = [
   {
@@ -48,6 +49,7 @@ const DiningOut = () => {
         <DiningOutCollections />
         <Filters filtersList = {diningOutFilters} />
         <Trending />
+        <Restaurants/>
       </div>
     </div>
   )

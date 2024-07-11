@@ -1,0 +1,67 @@
+.restaurants {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restaurants-title {
+    font-size: 1.5em;
+    justify-content: start;
+    align-items: start;
+    padding-right: 59%;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.restaurants-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns with equal width */
+    gap: 50px;
+    /* Gap between each grid item */
+}
+
+.restaurants {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.restaurants-cover {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s;
+}
+
+.restaurants-cover:hover {
+    transform: scale(1.05);
+}
+
+.restaurants-image {
+    width: 100%;
+    height: 250px;
+    /* Adjust height as needed */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.restaurants-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.restaurants-time {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+    text-align: center;
+    margin-top: 5px;
+}
