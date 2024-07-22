@@ -172,7 +172,7 @@ const restaurantsList = [
     },
     {
         id: 16,
-        cover: "https://cdn.pixabay.com/photo/2014/09/17/20/26/restaurant-449952_640.jpg",
+        cover: "https://media.istockphoto.com/id/1248298343/photo/3d-rendering-of-a-luxury-restaurant-interior-at-night.jpg?s=612x612&w=0&k=20&c=HATLl-O0gMhEEFP5gOA48YrCiFAw5J4gMD69I7WIhlg=",
         title: "Makau",
         rating: "4.2★",
         items: "North Indian,Beverages,...",
@@ -182,8 +182,8 @@ const restaurantsList = [
     },
     {
         id: 17,
-        cover: "https://cdn.pixabay.com/photo/2015/05/31/14/24/vintage-791942_640.jpg",
-                title: "36 Downtown Brew Pub",
+        cover: "https://media.istockphoto.com/id/1079901206/photo/3d-render-of-luxury-restaurant-interior.jpg?s=612x612&w=0&k=20&c=kKj5Uw0ZpuWKX8ZX6eXuKGc1sP86fMjIbZJFbWl9-ZM=",
+        title: "36 Downtown Brew Pub",
         offer: "Flat 20% OFF",
         rating: "4.3★",
         items: "Continental,Hyderabadi,...",
@@ -193,7 +193,7 @@ const restaurantsList = [
     },
     {
         id: 18,
-        cover: "https://cdn.pixabay.com/photo/2016/11/18/22/21/restaurant-1837150_640.jpg",
+        cover: "https://media.istockphoto.com/id/1163284610/photo/very-stylish-indian-gourmet-restaurant.jpg?s=612x612&w=0&k=20&c=-0Bz0mNjnrDoXApfo6P_xBrKmIMPZYJwQ5zAGEpzThI=",
         title: "Forefathers",
         rating: "4.2★",
         items: "Finger Food,Pizza,Bar Fo...",
@@ -207,7 +207,7 @@ const restaurantsList = [
 const Restaurants = () => {
   return (
     <div className='restaurantss max-width'>
-        <div className='restaurantss-title'>Trending dining out restaurants in Hyderabad</div>
+        <div className='restaurantsss-title'>Trending dining out restaurants in Hyderabad</div>
             <div className='restaurantss-grid'>
                 {restaurantsList.map((restaurants) => (
                 <div key={restaurants.id} className='restaurantss-cover'>

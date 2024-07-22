@@ -1,0 +1,35 @@
+.nightLife-item {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.nightLife-item-cover {
+    position: relative;
+}
+
+.nightLife-item-image {
+    width: 90%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.nightLife-item-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.nightLife-item-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nightLife-item-places {
+    font-size: 1em;
+}

@@ -1,21 +1,21 @@
-.restaurantss {
+.night-restaurant {
     max-width: 1300px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.restaurantsss-title {
+.night-restaurant-title {
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-.restaurantss-grid {
+.night-restaurant-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.restaurantss-cover {
+.night-restaurant-cover {
     position: relative;
     flex: 1 1 calc(33.333% - 20px);
     box-sizing: border-box;
@@ -25,19 +25,19 @@
     transition: transform 0.2s;
 }
 
-.restaurantss-cover:hover {
+.night-restaurant-cover:hover {
     transform: scale(1.05);
 }
 
-.restaurantss-image {
+.night-restaurant-image {
     width: 100%;
     height: 50%;
     border-radius: 8px;
 }
 
-.restaurantss-offer {
+.night-restaurant-offer {
     position: absolute;
-    top: 120px;
+    top: 150px;
     left: 10px;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
@@ -45,21 +45,21 @@
     border-radius: 5px;
 }
 
-.restaurantss-title-rating {
+.night-restaurant-title-rating {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px 0;
 }
 
-.restaurantss-title {
+.night-restaurant-title {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
     word-wrap: normal;
 }
 
-.restaurantss-rating {
+.night-restaurant-rating {
     font-size: 14px;
     background-color: green;
     color: white;
@@ -67,29 +67,29 @@
     border-radius: 5px;
 }
 
-.restaurantss-info {
+.night-restaurant-info {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin: 10px 0;
 }
 
-.restaurantss-items {
+.night-restaurant-items {
     margin-right: 10px;
 }
 
-.restaurantss-costs {
+.night-restaurant-costs {
     white-space: nowrap;
 }
 
-.restaurantss-location {
+.night-restaurant-location {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-top: 10px;
 }
 
-.restaurantss-address,
-.restaurantss-km {
+.night-restaurant-address,
+.night-restaurant-km {
     font-size: 14px;
 }

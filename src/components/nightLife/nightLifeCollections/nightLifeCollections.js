@@ -1,11 +1,11 @@
 import React from 'react';
-import './diningOutCollections.css';
+import './nightLifeCollections.css';
 import NextArrow from '../../fixedBar/carousel/nextArrow';
 import PrevArrow from '../../fixedBar/carousel/prevArrow';
 import Slider from "react-slick";
-import DiningOutItem from './diningOutItem/diningOutItem';
+import NightLifeItem from './nightLifeItem/nightLifeItem';
 
-const diningOutItems =[
+const nightLifeItems =[
     {
         id: 1,
         title: "Newly opened Places",
@@ -52,7 +52,7 @@ const diningOutItems =[
         id: 8,
         title: "Finest Microbreweries",
         places: "6 Places ▶",
-        cover: "https://lh5.googleusercontent.com/p/AF1QipNDT7UDRSjZj6DvxygtcOpA-U5fpF03wbAi7GXR=w115-h115-n-k-no",
+        cover: "https://b.zmtcdn.com/data/pictures/2/91732/483342127349a28a4e5b55cf0a67de42_featured_v2.jpg",
     },
 ];
 
@@ -64,22 +64,23 @@ const settings = {
     prevArrow: <PrevArrow />
 }
 
-const DiningOutCollections = () => {
+
+const NightLifeCollections = () => {
   return (
-    <div className='dining-out-collections'>
+    <div className='nightLife-Collections'>
         <div className='max-width'>
-            <div className='diningOut-collection-title'>
+            <div className='nightLife-collection-title'>
                 <h1>Collections</h1>
                 <p>Explore curated lists of top restaurants, cafes, pubs, an bars in Hyderabad, based on trends</p>
             </div>
             <Slider{...settings}>
-                {diningOutItems.map((item)=>{
-                    return <DiningOutItem key={item.id} item ={item}/>
+                {nightLifeItems.map((item)=>{
+                    return <NightLifeItem key={item.id} item ={item}/>
                 })}
             </Slider>
         </div>
     </div>
-   )
-} 
+  )
+}
 
-export default DiningOutCollections;
+export default NightLifeCollections;

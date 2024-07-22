@@ -22,9 +22,9 @@ const Header = () => {
           </div>
         </div>
         <div className='profile-wrapper'>
-          <img src='https://b.zmtcdn.com/images/user_avatars/mug_2x.png?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A' alt='Profile' className='header-profile-image'/>
+          <img src='https://cdn-icons-png.flaticon.com/128/9821/9821477.png' alt='Profile' className='header-profile-image'/>
           <span className='header-username'>Nithya</span>
-          <i className="fi fi-rr-angle-small-down absolute-center profile-options-image"></i>
+          <i className="fi fi-rr-angle-small-down absolute-center profile-options-image"></i> 
         </div>
       </div>
     </div>
